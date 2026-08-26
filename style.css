@@ -14,11 +14,23 @@ header h1{
 
 nav ul{
     list-style: none;
-    display: flex;
-    gap: 20px;
-}
+    display: flex;   /*para poner lo li en fila horizontal*/
+    gap: 20px;    /*da espacio entre cada link*/
+
+} 
 
 nav a{
     color: white;
     text-decoration: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #2B2D42;
+    padding: 10px;
+    text-align: left;
 }
