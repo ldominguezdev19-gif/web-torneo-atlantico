@@ -52,3 +52,14 @@ th{
     color: #D4A017;
 
 }
+
+.box-equipos{
+    display: flex;
+    gap: 15px;
+}
+
+.participantes{
+    border: 1px solid #2B2D42;
+    text-align: center;
+    padding: 10px;
+}
