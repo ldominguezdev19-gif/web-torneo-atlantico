@@ -39,3 +39,11 @@ th{
     background-color: #0B2545;
     color: white;
 }
+
+.fase{
+    border: 1px solid #2B2D42;
+    padding: 15px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    color: #2B2D42;
+}
