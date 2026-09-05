@@ -16,12 +16,19 @@ nav ul{
     list-style: none;
     display: flex;   /*para poner lo li en fila horizontal*/
     gap: 20px;    /*da espacio entre cada link*/
+    
 
 } 
 
 nav a{
     color: white;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #D4A017;
+    
 }
 
 table{
