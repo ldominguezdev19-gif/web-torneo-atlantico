@@ -37,6 +37,18 @@ body{
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+
+.nav-menu-link:hover{
+    background-color: #D4A017;
+    transition: 0.5s;
 }
 
 .title{
