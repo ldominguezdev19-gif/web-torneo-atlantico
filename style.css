@@ -67,6 +67,7 @@ body{
     padding: 0 20px;
     line-height: 60px;
     display: none;
+    cursor: pointer;
 }
 
 @media (max-width: 768px){
