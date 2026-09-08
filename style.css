@@ -6,6 +6,11 @@ body{
 header{
     background-color: #0B2545;
     padding: 20px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 header h1{
@@ -15,8 +20,9 @@ header h1{
 nav ul{
     list-style: none;
     display: flex;   /*para poner lo li en fila horizontal*/
-    gap: 20px;    /*da espacio entre cada link*/
-    
+        /*da espacio entre cada link*/
+    justify-content: space-between;
+    align-items: center;
 
 } 
 
