@@ -17,12 +17,20 @@ body{
     left: 0;
     display: flex;
     justify-content: space-between;
+    
+}
+
+.nav{
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 .nav-menu{
     display: flex;
     margin-right: 40px;
     list-style: none;
+    max-width: 992px;
+    margin: 0 auto;
     
 }
 
@@ -50,6 +58,74 @@ body{
     background-color: #D4A017;
     transition: 0.5s;
 }
+
+.nav-toggle{
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+@media (max-width: 768px){
+    body{
+    padding: 90px 20px 0;
+}
+
+.header{
+    background-color: #0B2545;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+
+.nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+
+.nav-menu-link:hover{
+    background-color: #D4A017;
+    transition: 0.5s;
+}
+}
+
 
 .title{
     font-size: 30px;
