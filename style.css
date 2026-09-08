@@ -2,27 +2,32 @@ body{
     background-color: #F5F7FA;
     color: #2B2D42;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 90px 20px 0;
 }
 header{
     background-color: #0B2545;
-    padding: 20px;
     height: 80px;
+    padding: 20px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1{
     color: white;
+    font-size: 25px;
 }
 
 nav ul{
     list-style: none;
     display: flex;   /*para poner lo li en fila horizontal*/
-        /*da espacio entre cada link*/
-    justify-content: space-between;
-    align-items: center;
+    gap: 30px;                /*da espacio entre cada link*/
+    margin-right: 20px;
+    font-size: 18px;
+    
 
 } 
 
